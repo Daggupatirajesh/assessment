@@ -1,0 +1,71 @@
+.MovieSearch {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .MovieSearch input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .MovieSearch button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cardSection {
+    border: 2px rgb(225, 206, 206) solid;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .Card {
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Card.Img {
+    height: 100px;
+    background: cover;
+  }
+  
+  .Card.Body {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .Card.Title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .Card.Text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .button {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .Card {
+      width: 100%;
+    }
+  
+    .Card.Img {
+      height: 200px;
+    }
+  }
+  
